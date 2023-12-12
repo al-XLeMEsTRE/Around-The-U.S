@@ -1,0 +1,29 @@
+.page {
+  background-color: black;
+  color: white;
+}
+
+.content {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.header {
+  margin-top: 45px;
+  width: 880px;
+}
+.profile {
+  display: flex;
+}
+.profile__info {
+  display: grid;
+  grid-template-areas:
+    "title button"
+    "description description";
+}
+.profile__edit-button {
+  background: url(../images/edit-button.svg);
+  background-repeat: no-repeat;
+  height: 24px;
+  width: 24px;
+  grid-template-columns: minmax(auto 373px);
+}
