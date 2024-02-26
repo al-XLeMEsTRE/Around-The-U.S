@@ -17,7 +17,6 @@
   flex-direction: column;
   min-height: 100vh;
 }
-
 /* styles for 375px */
 
 @media screen and (max-width: 375px) {
