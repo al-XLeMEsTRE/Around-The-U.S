@@ -1,16 +1,22 @@
-.footer__copyright {
+.footer {
   display: flex;
+  flex-direction: row;
+  justify-content: start;
+  margin-top: 67px;
+  margin-bottom: 60px;
+  gap: 20px;
+}
+.footer__copyright {
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-  margin-top: 67px;
-  margin-bottom: 60px;
+
   color: #545454;
 }
 
 .footer__logo {
-  width: 40px;
-  height: 50px;
+  width: 65px;
+  height: 80px;
 }
 
 /*styles for 620px */
