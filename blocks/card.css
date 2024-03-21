@@ -44,3 +44,10 @@
   transition: transform 0.3s ease;
   flex-shrink: 0;
 }
+
+/* Button hover style*/
+
+.card__like-button:hover {
+  opacity: 50%;
+  cursor: pointer;
+}
