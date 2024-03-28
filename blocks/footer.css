@@ -10,9 +10,12 @@
 
 /*styles for 620px */
 
-@media screen and (max-width: 620px) {
+@media (max-width: 620px) {
   .footer__copyright {
-    display: flex;
+    line-height: 17px;
+    font-size: 14px;
+    margin-top: 48px;
+    margin-bottom: 36px;
     justify-content: center;
   }
 }

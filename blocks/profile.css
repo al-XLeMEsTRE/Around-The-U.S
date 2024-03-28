@@ -64,7 +64,6 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  max-width: ; /* give the element in question an appropriate max-width */
 }
 
 .profile__description {
@@ -81,7 +80,6 @@
 /**Media queries**/
 
 /* styles for tablets 770px */
-
 @media (max-width: 770px) {
   .profile__info {
     grid-template-columns: auto;
@@ -142,14 +140,13 @@
     text-align: center;
   }
 
-  .profile__image {
+  .profile__avatar {
     margin: 0 auto;
     margin-bottom: 30px;
   }
 }
 
 /* styles for small smartphones 320px*/
-
 @media (max-width: 320px) {
   .profile__info {
     padding-left: 0;
@@ -163,7 +160,7 @@
     width: 90%;
   }
 
-  .profile__image {
-    margin-bottom: 30px;
+  .profile__avatar {
+    margin: 0 auto 30px;
   }
 }
