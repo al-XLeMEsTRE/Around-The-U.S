@@ -23,9 +23,13 @@ Images were exported from Figma to ensure precision and detail, matching the des
 
 Dive into the project's intricacies and witness its responsiveness in action with this [video overview](https://www.awesomescreenshot.com/video/26222532?key=1d67e817eb3edc21b3962c03bfb08f29). It covers the project's layout strategy, BEM methodology, and the thought process behind the responsive design implementation.
 
+...
+
 ### Deployment
 
-Check out the live version of "Around The U.S." here: (Add your GitHub Pages link)
+Check out the live version of "Around The U.S." here: [al-xlemestre.github.io/Around-The-U.S/](https://al-xlemestre.github.io/Around-The-U.S/)
+
+...
 
 ### Future Improvements
 

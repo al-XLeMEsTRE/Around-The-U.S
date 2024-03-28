@@ -61,6 +61,10 @@
   font-weight: 500;
   grid-area: title;
   margin: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: ; /* give the element in question an appropriate max-width */
 }
 
 .profile__description {
