@@ -1,27 +1,18 @@
-.footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: start;
-  margin-top: 67px;
-  margin-bottom: 60px;
-  gap: 20px;
-}
 .footer__copyright {
+  display: flex;
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-
+  margin-top: 67px;
+  margin-bottom: 60px;
   color: #545454;
 }
 
 /*styles for 620px */
 
-@media (max-width: 620px) {
+@media screen and (max-width: 620px) {
   .footer__copyright {
-    line-height: 17px;
-    font-size: 14px;
-    margin-top: 48px;
-    margin-bottom: 36px;
+    display: flex;
     justify-content: center;
   }
 }
