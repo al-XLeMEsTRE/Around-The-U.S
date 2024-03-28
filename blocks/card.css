@@ -49,5 +49,6 @@
 
 .card__like-button:hover {
   cursor: pointer;
-  background-image: url(../images/like-active.svg);
+  opacity: 0.5; /* This makes the button half transparent when hovered */
+  /* Remove the background-image property if it's not needed */
 }
