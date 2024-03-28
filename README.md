@@ -1,21 +1,36 @@
 # Project 3: Around The U.S.
 
-### Overview
+## Overview
 
-- Intro
-- Figma
-- Images
+Welcome to "Around The U.S.", a responsive web project that adapts smoothly to popular screen sizes for an optimized user experience. This endeavor is part of a rigorous coding journey that hones skills and challenges developers with complexities akin to real-world scenarios.
 
-**Intro**
+### Features
 
-This project is made so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
+- Fully responsive design for mobile, tablet, and desktop views
+- Interactive UI elements with hover states
+- Semantic HTML and modern CSS practices
+- Compliance with design specs provided in Figma
 
-**Figma**
+### Figma
 
-- [Link to the project on Figma](https://www.figma.com/file/ii4xxsJ0ghevUOcssTlHZv/Sprint-3%3A-Around-the-US?node-id=0%3A1)
+The project's design was provided through Figma, a collaborative interface design tool. Here's the [link to the project on Figma](https://www.figma.com/file/ii4xxsJ0ghevUOcssTlHZv/Sprint-3%3A-Around-the-US?node-id=0%3A1), showcasing the meticulous layout planned for different viewport sizes.
 
-**Images**
+### Images
 
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster.
+Images were exported from Figma to ensure precision and detail, matching the design specifications. They were optimized using [TinyPNG](https://tinypng.com/) to enhance the project's performance without sacrificing quality.
 
-Good luck and have fun!
+### Video Overview
+
+Dive into the project's intricacies and witness its responsiveness in action with this [video overview](https://www.awesomescreenshot.com/video/26222532?key=1d67e817eb3edc21b3962c03bfb08f29). It covers the project's layout strategy, BEM methodology, and the thought process behind the responsive design implementation.
+
+### Deployment
+
+Check out the live version of "Around The U.S." here: (Add your GitHub Pages link)
+
+### Future Improvements
+
+- Enhance accessibility features
+- Implement a dark mode for better night-time viewing
+- Add more interactive elements for an enriched user experience
+
+Thank you for stopping by, and good luck on your coding adventure!
