@@ -123,6 +123,10 @@
     line-height: 17px;
     text-align: center;
     padding: 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 373px; /* As suggested by the reviewer */
   }
 
   .profile__add-button {
@@ -138,6 +142,10 @@
     font-size: 22px;
     line-height: 27px;
     text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 222px; /* As suggested by the reviewer */
   }
 
   .profile__avatar {
@@ -154,6 +162,7 @@
 
   .profile__description {
     padding-right: 0;
+    max-width: 282px; /* As suggested by the reviewer */
   }
 
   .profile__add-button {
