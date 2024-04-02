@@ -121,14 +121,10 @@
 
   .profile__description {
     width: 100%;
-    padding-right: 40px;
     font-size: 14px;
     line-height: 17px;
     text-align: center;
     padding: 0;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
   }
 
   .profile__add-button {
@@ -144,9 +140,6 @@
     font-size: 22px;
     line-height: 27px;
     text-align: center;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
   }
 
   .profile__avatar {
@@ -159,14 +152,6 @@
 @media (max-width: 320px) {
   .profile__info {
     padding-left: 0;
-  }
-
-  .profile__description {
-    padding-right: 0;
-  }
-
-  .profile__add-button {
-    width: 282px;
   }
 
   .profile__avatar {
