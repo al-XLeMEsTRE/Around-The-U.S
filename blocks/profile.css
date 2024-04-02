@@ -75,6 +75,7 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  max-width: 317px;
 }
 
 /**Media queries**/
@@ -87,10 +88,12 @@
   .profile__title {
     font-size: 28px;
     width: 100%;
+    max-width: 222px;
   }
 
   .profile__description {
     font-size: 16px;
+    max-width: 282px;
   }
 
   .profile__edit-button {
@@ -126,7 +129,6 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
-    max-width: 373px; /* As suggested by the reviewer */
   }
 
   .profile__add-button {
@@ -145,7 +147,6 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
-    max-width: 222px; /* As suggested by the reviewer */
   }
 
   .profile__avatar {
@@ -162,7 +163,6 @@
 
   .profile__description {
     padding-right: 0;
-    max-width: 282px; /* As suggested by the reviewer */
   }
 
   .profile__add-button {
