@@ -8,7 +8,6 @@
 /* Media queries */
 
 /* styles for 375px */
-
 @media (max-width: 375px) {
   .header {
     margin: 0 auto;
