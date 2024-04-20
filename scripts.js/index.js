@@ -23,5 +23,4 @@ const initialCards = [
     name: "Lago di Braies",
     link: "https://practicum-content.s3.us-west-1.amazonaws.com/sof/Lago_di_Braies.jpg",
   },
-  // You can continue adding more objects as needed
 ];
