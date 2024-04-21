@@ -24,3 +24,5 @@ const initialCards = [
     link: "https://practicum-content.s3.us-west-1.amazonaws.com/sof/Lago_di_Braies.jpg",
   },
 ];
+
+console.log(initialCards);
