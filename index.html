@@ -145,6 +145,33 @@
       </footer>
     </div>
 
-    <script src="./scripts.js/index.js"></script>
+    <!-- Modal -->
+    <div class="modal modal_opened">
+      <!-- Modal content -->
+      <div class="modal__container">
+        <!-- Modal close button -->
+        <button class="modal__close"></button>
+        <!-- Modal heading -->
+        <p class="modal__heading">Edit profile</p>
+        <!--Modal  Form -->
+        <form class="modal__form">
+          <input
+            type="text"
+            name="title"
+            class="modal__input"
+            placeholder="Jacques Cousteau"
+          />
+          <input
+            type="text"
+            name="description"
+            class="modal__input"
+            placeholder="Explorer"
+          />
+          <button class="modal__button">Save</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="./scripts/index.js"></script>
   </body>
 </html>

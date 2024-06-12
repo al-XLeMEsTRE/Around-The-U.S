@@ -1,0 +1,113 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0 19px;
+  z-index: 1000;
+  display: none;
+  color: black;
+}
+
+.modal_opened {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal__container {
+  position: relative;
+  background-color: white;
+  margin: 0 auto;
+  padding: 36px;
+  border-radius: 10px;
+}
+
+.modal__close {
+  border: none;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: -45px;
+  right: -45px;
+  background-image: url("../images/modal/Close\ Icon.svg");
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
+}
+
+.modal__heading {
+  width: 330px;
+  font-family: inter, sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+  margin-bottom: 54px;
+  margin-top: 0;
+}
+
+.modal__form {
+  width: 358px;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal__input {
+  height: 28px;
+  font-family: inter, sans-serif;
+  font-size: 16px;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 10px; /* Adjust padding as needed */
+  margin-bottom: 20px;
+  border-radius: 4px; /* Rounded corners, adjust radius as needed */
+}
+.modal__button {
+  max-width: 100%;
+  height: 50px;
+  color: white;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  padding: 0;
+  cursor: pointer;
+  border: none;
+  margin-top: 48px;
+}
+
+@media screen and (max-width: 620px) {
+  .modal__container {
+    width: 282px;
+    height: auto;
+    border-radius: 10px;
+    padding: 25px 22px;
+  }
+
+  .modal__heading {
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 22px;
+    margin-bottom: 75px; /* Reduced margin for better spacing */
+  }
+
+  .modal__button {
+    height: 46px;
+    margin-top: 45px;
+  }
+
+  .modal__close {
+    width: 26px;
+    height: 26px;
+    bottom: calc(100% + 10px);
+    left: calc(100% - 40px);
+  }
+
+  /* Adjusting input styles for smaller screens */
+  .modal__input {
+    padding: 8px 10px; /* Adjusted padding for smaller screens */
+    margin-bottom: 15px; /* Reduced space between inputs */
+  }
+}
